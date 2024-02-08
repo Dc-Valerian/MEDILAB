@@ -1,0 +1,860 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ /* styling the topbar & navbar */
+
+.leftmenu{
+    text-decoration: none;
+    color: #2c4964;
+    font-family: "Tahoma";
+}
+.leftmenu:hover{
+    color: #1977cc;
+}
+.phonenumber{
+    color: #2c4964;
+}
+#topbar{
+    background-color: #fff;
+    height: 40px;
+    font-size: 14px;
+    /* transition: all 0.5s; */
+    z-index: 10000000;
+}
+#topbar i{
+    color: #1977cc;
+    font-size: 20px;
+}
+
+.appointment-btn{
+    margin-left: 25px;
+    background-color: #1977cc;
+    color: #fff;
+    border-radius: 50px;
+    padding: 8px 25px;
+    white-space: nowrap;
+    /* transition: 0.3s; */
+    font-size: 14px;
+    display: inline-block;
+    text-decoration: none;
+}
+.appointment-btn:hover{
+    text-decoration: none !important;
+    color: #fff !important;
+    background-color: none !important;
+}
+.appointment-btn:focus{
+    color: #fff !important;
+    text-decoration: none !important;
+    background-color: none !important;
+}
+.mainnav{
+    margin-top: 20px;
+    height: 110px;
+}
+#main-nav a:hover{
+    text-decoration: underline;
+    color: #1977cc;
+}
+
+#main-nav a:focus{
+    color: #1977cc;
+    text-decoration: underline;
+}
+.h1-navbar span{
+    color: #2c4964;
+    font-family: "Tahoma";
+}
+.deepdropdown-menu{
+    display: none;
+}
+.deepdrop:hover .deepdropdown-menu{
+    display: block;
+}
+.drop li:hover{
+    color: #1977cc;
+}
+.icon a{
+    color: #437099;
+}
+
+  /* styling of the topbar and nav bar ends here */
+  
+  /* styling the sections begins here */
+section{
+    padding: 60px,0;
+    /* margin-top: 80px; */
+    overflow: hidden;
+}
+
+  /* styling home section */
+  #home {
+    width: 100%;
+    height: 90vh;
+    background: url("/images/new background.jpg") top center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: -200px;
+}
+/* #home .container{
+    position: relative;
+} */
+.welcome h1{
+    color: #2c4964;
+    font-family: "Tahoma";
+    margin: 0;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    text-transform: uppercase;
+}
+.welcome p{
+    color: #2c4964;
+    font-family: "Tahoma";
+}
+.get{
+    text-transform: uppercase;
+    font-family: "Tahoma";
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 35px;
+    margin-top: 30px;
+    border-radius: 50px;
+    color: #fff;
+    background-color: #1977cc;
+    text-decoration: none;
+}
+.get:hover{
+    background-color: #1979ccd8;
+    color: #fff;
+}
+  /* end of home section styling */
+
+    /* styling of why us section */
+    .why-us{
+        margin-top: 150px;
+    }
+.why-us .content{
+    padding: 30px;
+    background: #1977cc;
+    border-radius: 4px;
+    color: #fff;
+}
+.why-us .content h3 {
+    font-weight: 700;
+    font-size: 34px;
+    margin-bottom: 30px;
+    font-family: "Tahoma";
+}
+.why-us .content p {
+    margin-bottom: 30px;
+    font-family: "Tahoma";
+}
+.why-us .content .more-btn {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 6px 30px 8px 30px;
+    color: #fff;
+    border-radius: 50px;
+    /* transition: all ease-in-out 0.4s; */
+}
+.why-us .content .more-btn:hover{
+    background-color: #fff;
+    color: #1977cc;
+}
+.why-us .icon-boxes .icon-box {
+    text-align: center;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.925);
+    padding: 40px 30px;
+    width: 100%;
+}
+
+.why-us .icon-boxes .icon-box h4 {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 10px 0 30px 0;
+    font-family: "Tahoma";
+}
+.why-us .icon-boxes .icon-box p {
+    font-size: 15px;
+    color: #848484;
+    font-family: "Tahoma";
+}
+.icon-box i{
+    color: #1977cc;
+    font-size: 30px;
+}
+
+   /* end of why us section styling */
+
+/* styling the about section */
+#about{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.play{
+    /* align-items: center;
+    justify-content: center; */
+    width: 100px;
+    height: 100px;
+    border: 5px solid rgb(25,119,204,0.7);
+    border-radius: 50px;
+    margin-top: 220px;
+    padding: 8px 40px 80px 20px;
+}
+.play:hover{
+    background-color: #1977cc;
+    color: #fff;
+}
+.play i{
+    font-size: 50px;
+}
+
+.image-bg{
+    background: url("/images/docandco.jpg") center center no-repeat;
+    background-size: cover;
+    min-height: 500px;
+}
+
+.about .icon-box .icon{
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 64px;
+    height: 64px;
+    border: 3px solid #8dc2f1;
+    border-radius: 50px;
+    /* transition: 0.5s; */
+}
+.about .icon-box .icon:hover{
+    background-color: #1977cc;
+}
+.about .icon-box .icon i:hover{
+    color: #fff;
+}
+.about .icon-box .icon i{
+    font-size: 26px;
+}
+
+.about .icon-box .description{
+    margin-left: 85px;
+    line-height: 24px;
+    font-size: 14px;
+    font-family: "Tahoma";
+}
+.about .icon-box .title{
+    margin-left: 85px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #2c4964;
+    font-family: "Tahoma";
+}
+.about .icon-boxes h3{
+    color: #2c4964;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-family: "Tahoma";
+}
+
+.icon-box a{
+    color: #2c4964;
+    text-decoration: none;
+}
+     /* end  about section stylng */
+
+            /* styling of counts section */
+.counts{
+    background-color: #f1f7fd;
+    padding: 70px 0 60px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.counts .count-box{
+    padding: 30px 30px 25px 30px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    background-color: #fff;
+}
+.counts .count-box i{
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 20px;
+    background: #1977cc;
+    color: #fff;
+    border-radius: 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+}
+.counts .count-box span{
+    font-size: 36px;
+    display: block;
+    font-weight: 600;
+    font-family: "Tahoma";
+    color: #082744;
+}
+.counts .count-box p{
+    font-weight: bold;
+    font-family: "Tahoma";
+    font-size: 14px;
+}
+   /* end of counts section styling */
+
+            /* styling of services section */
+#services{
+    margin-top: 100px;
+}
+.section-title{
+    text-align: center;
+    padding-bottom: 30px;
+ }
+ .section-title h2{
+    font-family: "Tahoma";
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #2c4964;
+ }
+ .section-title h2::after{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: #1977cc;
+    bottom: 0;
+    left: calc(50% - 20px);
+ }
+ .section-title h2::before{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 120px;
+    height: 1px;
+    background: #ddd;
+    bottom: 1px;
+    left: calc(50% - 60px);
+ }
+ .section-title p{
+    font-size: 16px;
+    color: #444444;
+    font-family: "Tahoma";
+ }
+ .services .icon-box{
+    text-align: center;
+    border: 1px solid #d5e1ed;
+    padding: 80px 20px;
+    transition: all ease-in-out 0.3s;
+}
+.services .icon-box:hover{
+    background-color: #1977cc;
+}
+
+.services .icon-box:hover .icon{
+    background-color: #fff;
+}
+
+.services .icon-box .icon {
+    margin: 0 auto;
+    width: 64px;
+    height: 64px;
+    background: #1977cc;
+    border-radius: 5px;
+    transition: all 0.3s ease-out 0s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    transform-style: preserve-3d;
+    position: relative;
+    z-index: 2;
+}
+
+.services .icon-box .icon::before {
+    position: absolute;
+    content: "";
+    left: -8px;
+    top: -8px;
+    height: 100%;
+    width: 100%;
+    background: rgba(25, 119, 204, 0.2);
+    border-radius: 5px;
+    transition: all 0.3s ease-out 0s;
+    transform: translateZ(-1px);
+    z-index: -1;
+}
+
+.services .icon-box h4 a {
+    color: #2c4964;
+    font-family: "Tahoma";
+}
+.services .icon-box:hover h4 a , .services .icon-box:hover p{
+    color: #fff;
+}
+.services .icon-box p{
+    margin-bottom: 0;
+    font-size: 16px;
+    color: #444444;
+    font-family: "Tahoma";
+}
+.services .icon-box .icon i {
+    color: #fff;
+    font-size: 28px;
+    transition: ease-in-out 0.3s;
+}
+.services .icon-box:hover i{
+    color: #1977cc;
+}
+  /* end of services section styling */
+
+     /* styling appointment section */
+
+.section-bg {
+    background-color: #f1f7fd;
+    margin-top: 100px;
+    /* height: 600px; */
+
+}
+.appointment .form {
+    width: 100%;
+}
+.appointment .form button[type=submit] {
+    background: #1977cc;
+    border: 0;
+    padding: 10px 35px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 50px;
+}
+
+
+   /* end of appointment section styling */
+
+   /* styling of departments */
+.departments{
+    margin-top: 100px;
+}
+.departments .nav-tabs {
+    border: 0;
+}
+.departments .nav-link.active {
+    color: #1977cc;
+    border-color: #1977cc;
+}
+.departments .nav-link {
+    border: 0;
+    padding: 12px 15px 12px 0;
+    transition: 0.3s;
+    color: #2c4964;
+    border-radius: 0;
+    border-right: 2px solid #ebf1f6;
+    font-family: "Tahoma";
+    font-weight: 600;
+    font-size: 15px;
+}
+.departments .tab-pane.active {
+    animation: fadeIn 0.5s ease-out;
+}
+.departments p {
+    color: #777777;
+    font-family: "Tahoma";
+}
+.departments h3 {
+    font-family: "Tahoma";
+}
+.tab-content>.tab-pane {
+    display: none;
+}
+    /* end of departments section styling */
+   /* styling of doctors section */
+.doctors{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.doctors .member {
+    position: relative;
+    box-shadow: 0px 2px 15px rgba(44, 73, 100, 0.08);
+    padding: 30px;
+    border-radius: 10px;
+}
+.doctors .member .pic img {
+    /* transition: ease-in-out 0.3s; */
+    margin-left: 30px;
+}
+.doctors .member .member-info {
+    padding-right: 30px;
+    margin-right: 30px;
+}
+.doctors .member h4 {
+    font-family: "Tahoma";
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: #2c4964;
+}
+.doctors .member span {
+    display: block;
+    font-size: 15px;
+    padding-bottom: 10px;
+    position: relative;
+    font-family: "Tahoma";
+    font-weight: 500;
+}
+.doctors .member span::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 1px;
+    background: #b2c8dd;
+    bottom: 0;
+    left: 0;
+}
+.doctors .member p {
+    margin: 10px 0 0 0;
+    font-family: "Tahoma";
+    font-size: 14px;
+}
+.doctors .img-fluid{
+    width: 50%;
+    border-radius: 50%;
+}
+.doctors .member .social {
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.doctors .member .social a {
+    transition: ease-in-out 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    width: 32px;
+    height: 32px;
+    background: #a0bcd5;
+    color: #fff;
+}
+.doctors .member .social a:hover{
+    background-color: #1977cc;
+    /* color: #fff; */
+}
+   /*end  doctors section styling*/
+   /* styling of frequently asked question */
+.faq{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.accordion-items {
+    background: #fff;
+}
+.accordion .icon-help {
+    font-size: 24px;
+    color: #76b5ee;
+}
+.accordion a{
+    text-decoration: none;
+    color: #082744;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Tahoma";
+    font-weight: 500;
+    padding: 0 30px;
+}
+.accordion p {
+    margin-bottom: 0;
+    padding: 10px 0 0 0;
+    font-family: "Tahoma";
+}
+        /* end of frequently asked question styling */
+        /* styling of testiominal section */
+
+ .testimonial .member {
+    position: relative;
+    box-shadow: 0px 2px 15px rgba(44, 73, 100, 0.08);
+    padding: 30px;
+    border-radius: 10px;
+}
+.testimonial .member .member-info {
+    padding-left: 30px;
+    margin-left: 30px;
+}
+.testimonial .member h4 {
+    font-family: "Tahoma";
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: #2c4964;
+}
+.testimonial .member span {
+    display: block;
+    font-size: 15px;
+    padding-bottom: 10px;
+    position: relative;
+    font-weight: 500;
+}
+.testimonial .member span::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 1px;
+    background: #b2c8dd;
+    bottom: 0;
+    left: 0;
+}
+.testimonial .member p {
+    margin: 10px 0 0 0;
+    font-family: "Tahoma";
+    font-size: 14px;
+}
+ /* end of testimonial section styling */
+  /* gallery section styling */
+
+.gallery .gallery-item {
+    overflow: hidden;
+    border-right: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+}
+   /* end of gallery section styling */
+   /* contact sectio styling */
+.contact{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.contact .info {
+    width: 100%;
+    background: #fff;
+}
+.contact .info i {
+    font-size: 20px;
+    color: #1977cc;
+    float: left;
+    width: 44px;
+    height: 44px;
+    background: #d6e9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+}
+.contact .info i:hover{
+    background-color: #1977cc;
+    color: #fff;
+}
+.contact .info h4 {
+    padding: 0 0 0 60px;
+    font-family: "Tahoma";
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #2c4964;
+}
+.contact .info p {
+    padding: 0 0 0 60px;
+    margin-bottom: 0;
+    font-family: "Tahoma";
+    font-size: 14px;
+    color: #4b7dab;
+}
+.contact .form {
+    width: 100%;
+    background: #fff;
+}
+.contact .form input {
+    height: 44px;
+}
+.contact .form .form-group {
+    padding-bottom: 8px;
+}
+.contact .form textarea {
+    padding: 10px 12px;
+}
+.contact .form .loading {
+    display: none;
+    background: #fff;
+    text-align: center;
+    padding: 15px;
+    font-family: "Tahoma";
+}
+.contact .form .error-message {
+    display: none;
+    color: #fff;
+    background: #ed3c0d;
+    text-align: left;
+    padding: 15px;
+    font-family: "Tahoma";
+    font-weight: 600;
+}
+.contact .form .sent-message {
+    display: none;
+    color: #fff;
+    background: #18d26e;
+    text-align: center;
+    padding: 15px;
+    font-family: "Tahoma";
+    font-weight: 600;
+}
+.contact .form button[type=submit] {
+    background: #1977cc;
+    border: 0;
+    padding: 10px 35px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 50px;
+}
+/* end of contact section styling */
+
+/* styling of footer */
+#footer {
+    color: #444444;
+    font-size: 14px;
+    background: #f1f7fd;
+    margin-top: 100px;
+}
+#footer .footer-top {
+    padding: 60px 0 30px 0;
+    background: #fff;
+    box-shadow: 0px 2px 15px rgba(25, 121, 204, 0.1);
+}
+#footer .footer-top .footer-contact {
+    margin-bottom: 30px;
+}
+#footer .footer-top .footer-contact p {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 0;
+    font-family: "Tahoma";
+    color: #777777;
+}
+#footer .footer-top .footer-links {
+    margin-bottom: 30px;
+}
+#footer .footer-top .footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#footer .footer-top .footer-links ul li:first-child {
+    padding-top: 10px;
+}
+#footer .footer-top .footer-links ul li {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+}
+#footer .footer-top .footer-links ul a {
+    color: #777777;
+    transition: 0.3s;
+    display: inline-block;
+    line-height: 1;
+    text-decoration: none;
+    /* padding: 5px; */
+}
+#footer .footer-top .footer-links ul i {
+    padding-right: 2px;
+    color: #1c84e3;
+    font-size: 18px;
+    line-height: 1;
+}
+#footer .footer-newsletter {
+    font-size: 15px;
+}
+#footer .footer-newsletter h4 {
+    font-family: "Tahoma";
+    font-size: 16px;
+    font-weight: bold;
+    color: #444444;
+    position: relative;
+    padding-bottom: 12px;
+}
+#footer .footer-newsletter form {
+    margin-top: 30px;
+    background: #fff;
+    padding: 6px 10px;
+    position: relative;
+    border-radius: 50px;
+    text-align: left;
+    border: 1px solid #bfdcf7;
+}
+#footer .footer-newsletter form input[type=email] {
+    border: 0;
+    padding: 4px 8px;
+    width: calc(100% - 100px);
+}
+#footer .footer-newsletter form input[type=submit] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    border: 0;
+    background: none;
+    font-size: 16px;
+    padding: 0 20px;
+    background: #1977cc;
+    color: #fff;
+    transition: 0.3s;
+    border-radius: 50px;
+}
+#footer .credits {
+    padding-top: 5px;
+    font-family: "Tahoma";
+    font-size: 13px;
+    color: #444444;
+}
+#footer .social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: #1977cc;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+}
+/* end of footer styling */
+/* back to top styling */
+.back-to-top.active {
+    visibility: visible;
+    opacity: 1;
+}
+.back-to-top {
+    position: fixed;
+    visibility: hidden;
+    opacity: 0;
+    right: 15px;
+    bottom: 15px;
+    z-index: 996;
+    background: #1977cc;
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    transition: all 0.4s;
+}
+.back-to-top i {
+    font-size: 28px;
+    color: #fff;
+    line-height: 0;
+}
